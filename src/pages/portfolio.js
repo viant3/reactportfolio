@@ -89,7 +89,7 @@ class Portfolio extends Component {
                     <div className="col-lg-3 d">
                         <a target="_blank" rel="noopener noreferrer" href="https://ucfp2.herokuapp.com/">
                             <img className="roundCorner" src={claws} alt="Project 2" />
-                            <div className="floatText">Claws and Paws</div>
+                            <div className="floatText">Project 2 MySQL</div>
                         </a>
                     </div>
                     <div className="col-lg-1"></div>
