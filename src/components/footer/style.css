@@ -1,0 +1,16 @@
+.footer {
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #666666;
+    color: #777777;
+    padding: 1px;
+    width: 100%;
+    text-align: center;
+    border-top: 8px solid #800000;
+  }
+
+  .footImg {
+    margin: 5px;
+  }

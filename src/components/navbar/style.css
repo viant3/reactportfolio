@@ -1,0 +1,29 @@
+.navbar {
+    padding-bottom: 0px;
+    border-bottom: .5px solid #CDD1C4;
+    }
+
+.a {
+        color: #777777;
+        padding: 8px;
+        text-align: center;
+        text-decoration: none;
+        float: right;
+        border-right: .5px solid #CDD1C4;
+        line-height: 3px;
+      }
+      
+.anchorRight{
+      clear: both;
+      float: right;
+      }
+      
+.a:hover {
+        color: #800000;
+      }
+
+.centerPage {
+        clear: both;
+        width: 960px; 
+        margin: 0 auto;  
+      }
