@@ -28,7 +28,7 @@ app.use(bodyParser.json());
 app.use(logger("dev"));
 
 router.get("/", (req, res) => {
-  res.json({ message: "HELLOW WORLDUUHHHH" });
+  res.json({ message: "Welcome to Victor Politano's Web Portfolio" });
 });
 
 router.get("/getData", (req, res) => {
@@ -57,14 +57,16 @@ router.delete("/deleteData", (req, res) => {
 router.post("/putData", (req, res) => {
   let data = new Data();
 
-  const { id, message } = req.body;
+  const { id, name, email, message } = req.body;
 
-  if ((!id && id !== 0) || !message) {
+  if ((!id && id !== 0) || !name || !email || !message ) {
     return res.json({
       success: false,
       error: "INVALID INPUTS"
     });
   }
+  data.name = name;
+  data.email = email;
   data.message = message;
   data.id = id;
   data.save(err => {

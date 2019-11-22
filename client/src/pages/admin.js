@@ -44,7 +44,7 @@ class App extends Component {
 
     axios.post("/api/putData", { 
       id: idToBeAdded,
-      message: this.state.message,
+      message: message,
       email: this.state.email,
       name: this.state.name
     });

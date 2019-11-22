@@ -27,9 +27,11 @@ class index extends Component {
                                               </p>
 
                             <p>
-                                This site is a full MERN Stack reproduction of my initial HTML Portfolio page that I created in school. 
+                                This site is a Full MERN Stack reproduction of my initial static HTML Portfolio page that I created in school. 
                                 The original page can be seen <a target="_blank" rel="noopener noreferrer" href="https://viant3.github.io/Portfolio/">HERE</a>.
+                
                                               </p>
+                            <p> My GitHub repo for this sight is <a target="_blank" rel="noopener noreferrer" href="https://github.com/viant3/reactportfolio">HERE</a>.</p>
 
                             
                         </div>
