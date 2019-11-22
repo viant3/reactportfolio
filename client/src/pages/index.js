@@ -19,21 +19,19 @@ class index extends Component {
 
                         <div className="col-lg-8">
                             <p>
-                                My name is Victor Politano. I work at C&S Press in Orlando. C&S Press is a printing press.
-                                We print everything from business cards to books. In the not so distant future, the age of the
-                                printing press will be over. Printing companies all over the world will go the way of Blockbuster Video.
-                                They will die a miserable death at the hands of their digital rivals.
+                                My name is Victor Politano. I am a recent graduate of the University of Central Florida’s Full Stack
+                                Web Developer Bootcamp and have certifications in Web Design and Programming from Valencia College. I
+                                am skilled in the MERN Stack, (Mongo, Express, React, and Node), and have strong fundamental HTML,
+                                CSS, and JavaScript skills. I am an excellent problem solver and I am excited to build applications with
+                                a team that shares my passion for coding.
                                               </p>
 
                             <p>
-                                I was married for 16 years and it nearly killed me. I was also in the Marine Corps. Being a Marine
-                                was easier than being married...
+                                This site is a full MERN Stack reproduction of my initial HTML Portfolio page that I created in school. 
+                                The original page can be seen <a target="_blank" rel="noopener noreferrer" href="https://viant3.github.io/Portfolio/">HERE</a>.
                                               </p>
 
-                            <p>
-                                I live with my girlfriend and three dogs. Bruno, a chihuahua and poodle mix. Harley, a yorkie and poodle mix.
-                                And Penelope, an American Bulldog. Bruno and Harley share the same mom... she was a popular poodle...
-                                              </p>
+                            
                         </div>
                     </div>
 
