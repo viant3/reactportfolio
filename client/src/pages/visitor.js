@@ -78,6 +78,7 @@ class App extends Component {
   render() {
     const { data } = this.state;
     return (
+      <section className="container-fluid mainBox">
       <div>
         <ul>
           {data.length <= 0 ? "NO DB ENTRIES YET" : data.map(dat => (
@@ -132,6 +133,7 @@ class App extends Component {
           </button>
         </div>
       </div>
+      </section>
     );
   }
 }
