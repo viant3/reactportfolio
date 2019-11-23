@@ -1,6 +1,6 @@
 body {
     background-image: url("./images/dust_scratches.png");
-    font-family: 'Megrim', cursive;
+    font-family: 'Julius Sans One', sans-serif;
     font-weight: bolder;
   }
   
@@ -92,6 +92,10 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
+  .spanRight{
+    margin-right: 20px;
+  }
+
   .mainBox {
     max-width: 960px;
     margin: 0 auto;
@@ -155,8 +159,13 @@ body {
     padding: 10px;
   }
   
+  textarea {
+    margin-top: 10px;
+  }
+  
   .textBoxStandard {
       height: 20px;
+      
       width: 100%;
   }
   

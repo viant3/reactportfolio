@@ -98,11 +98,11 @@ class App extends Component {
             placeholder="email"
             style={{ width: "200px" }}
           /><br />
-          <input
+          <textarea
             type="text"
             onChange={e => this.setState({ message: e.target.value })}
             placeholder="Type messeage here"
-            style={{ width: "200px" }}
+            style={{ width: "400px", height: "100px"}}
           /><br /><br />
           <button onClick={() => this.putDataToDB(this.state.message, this.state.name, this.state.email)} 
           >
@@ -117,12 +117,13 @@ class App extends Component {
           {data.length <= 0 ? "NO DB ENTRIES YET" : data.map(dat => (
             <li style={{ padding: "10px" }} key={dat} >
               {/* <span style={{ color: "gray" }}> id: </span> {dat.id} <br /> */}
-              <span style={{ color: "gray" }}> name: </span> {dat.name}<br />
-              <span style={{ color: "gray" }}> email: </span> {dat.email}<br />
-              <span style={{ color: "gray" }}> message: </span> {dat.message}
+              <span className="spanRight" style={{ color: "gray" }}> name:   {dat.name} </span> 
+              <span className="spanRight" style={{ color: "gray" }}> email:   {dat.email}</span> 
+              <span style={{ color: "gray" }}> message:  {dat.message}</span> 
             </li>
           ))}
         </ul>
+        
         {/* <div style={{ padding: "10px" }}>
           <input
             type="text"
