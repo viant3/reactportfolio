@@ -84,40 +84,42 @@ class App extends Component {
     return (
       <section className="container-fluid mainBox">
       <div>
+        <div style={{ padding: "10px" }}>
+        <input
+            type="text"
+            onChange={e => this.setState({ name: e.target.value })}
+            placeholder="Name"
+            style={{ width: "200px" }}
+          /><br />
+           <input
+            type="text"
+            onChange={e => this.setState({ email: e.target.value })}
+            placeholder="email"
+            style={{ width: "200px" }}
+          /><br />
+          <input
+            type="text"
+            onChange={e => this.setState({ message: e.target.value })}
+            placeholder="Type messeage here"
+            style={{ width: "200px" }}
+          /><br /><br />
+          <button onClick={() => this.putDataToDB(this.state.message, this.state.name, this.state.email)}>
+            ADD
+          </button>
+        </div>
+        </div>
+          <div>
         <ul>
           {data.length <= 0 ? "NO DB ENTRIES YET" : data.map(dat => (
             <li style={{ padding: "10px" }} key={dat}>
-              <span style={{ color: "gray" }}> id: </span> {dat.id} <br />
+              {/* <span style={{ color: "gray" }}> id: </span> {dat.id} <br /> */}
               <span style={{ color: "gray" }}> name: </span> {dat.name}<br />
               <span style={{ color: "gray" }}> email: </span> {dat.email}<br />
               <span style={{ color: "gray" }}> message: </span> {dat.message}
             </li>
           ))}
         </ul>
-        <div style={{ padding: "10px" }}>
-        <input
-            type="text"
-            onChange={e => this.setState({ name: e.target.value })}
-            placeholder="Bill G."
-            style={{ width: "200px" }}
-          />
-           <input
-            type="text"
-            onChange={e => this.setState({ email: e.target.value })}
-            placeholder="bill@MSFT.com"
-            style={{ width: "200px" }}
-          />
-          <input
-            type="text"
-            onChange={e => this.setState({ message: e.target.value })}
-            placeholder="add something in the database"
-            style={{ width: "200px" }}
-          />
-          <button onClick={() => this.putDataToDB(this.state.message, this.state.name, this.state.email)}>
-            ADD
-          </button>
-        </div>
-        <div style={{ padding: "10px" }}>
+        {/* <div style={{ padding: "10px" }}>
           <input
             type="text"
             style={{ width: "200px" }}
@@ -147,8 +149,8 @@ class App extends Component {
             }
           >
             UPDATE
-          </button>
-        </div>
+          </button> */}
+        {/* </div> */}
       </div>
       </section>
     );
