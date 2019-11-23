@@ -47,7 +47,8 @@ class App extends Component {
       message: this.state.message,
       email: this.state.email,
       name: this.state.name
-    });
+    })
+    
   };
 
   deleteFromDB = idTodelete => {
@@ -103,15 +104,18 @@ class App extends Component {
             placeholder="Type messeage here"
             style={{ width: "200px" }}
           /><br /><br />
-          <button onClick={() => this.putDataToDB(this.state.message, this.state.name, this.state.email)}>
-            ADD
-          </button>
+          <button onClick={() => this.putDataToDB(this.state.message, this.state.name, this.state.email)} 
+          >
+            Leave a Message
+          </button><br /><br />
         </div>
         </div>
-          <div>
+        <h3>Visitors</h3>
+          <div className="mainBoxBorder">
+          
         <ul>
           {data.length <= 0 ? "NO DB ENTRIES YET" : data.map(dat => (
-            <li style={{ padding: "10px" }} key={dat}>
+            <li style={{ padding: "10px" }} key={dat} >
               {/* <span style={{ color: "gray" }}> id: </span> {dat.id} <br /> */}
               <span style={{ color: "gray" }}> name: </span> {dat.name}<br />
               <span style={{ color: "gray" }}> email: </span> {dat.email}<br />
