@@ -1,10 +1,9 @@
 import "./style.css";
 import React, { Component } from "react";
-// import giphy from "./images/giphy.jpg";
 import train from "./images/train.jpg";
-// import psychic from "./images/psychic.jpg";
+import NSA from "./images/nsaBuild.jpg";
 import doctor from "./images/doctor.jpg";
-import trivia from "./images/trivia.jpg";
+import trivia from "./images/triviaChuck.jpg";
 import biohazzard from "./images/biohazzard.jpg";
 import liri from "./images/liri.jpg";
 import claws from "./images/claws.jpg";
@@ -40,9 +39,9 @@ class Portfolio extends Component {
                     <div className="col-lg-1"></div>
 
                     <div className="col-lg-3 d">
-                        <a target="_blank"  rel="noopener noreferrer" href="https://viant3.github.io/TriviaGame/">
-                            <img className="roundCorner" src={trivia} alt="Chuck Norris Trivia" />
-                            <div className="floatText">Chuck Trivia</div>
+                        <a target="_blank"  rel="noopener noreferrer" href="//vpdcproj3.herokuapp.com/">
+                            <img className="roundCorner" src={NSA} alt="NSA Search" />
+                            <div className="floatText">NSA Search</div>
                         </a>
                     </div>
 
@@ -50,9 +49,9 @@ class Portfolio extends Component {
 
                 <div className="row" >
                 <div className="col-lg-3 d">
-                        <a target="_blank" rel="noopener noreferrer" href="https://viant3.github.io/unit-4-game/">
-                            <img className="roundCorner" src={biohazzard} alt="Crystal Game" />
-                            <div className="floatText">Crystal Game</div>
+                        <a target="_blank"  rel="noopener noreferrer" href="https://viant3.github.io/TriviaGame/">
+                            <img className="roundCorner" src={trivia} alt="Chuck Norris Trivia" />
+                            <div className="floatText">Chuck Trivia</div>
                         </a>
                     </div>
 
@@ -72,6 +71,18 @@ class Portfolio extends Component {
                             <div className="floatText">Liri Node App</div>
                         </a>
                     </div>
+                    
+
+                </div>
+                <div className="row" >
+                <div className="col-lg-3 d">
+                        <a target="_blank" rel="noopener noreferrer" href="https://viant3.github.io/unit-4-game/">
+                            <img className="roundCorner" src={biohazzard} alt="Crystal Game" />
+                            <div className="floatText">Crystal Game</div>
+                        </a>
+                    </div>
+
+                    
 
                 </div>
      
