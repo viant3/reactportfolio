@@ -1,6 +1,5 @@
 import "./style.css";
 import React, { Component } from "react";
-import train from "./images/train.jpg";
 import NSA from "./images/nsaBuild.jpg";
 import doctor from "./images/doctor.jpg";
 import trivia from "./images/triviaChuck.jpg";
@@ -58,9 +57,9 @@ class Portfolio extends Component {
                     <div className="col-lg-1"></div>
 
                     <div className="col-lg-3 d">
-                        <a target="_blank" rel="noopener noreferrer" href="https://viant3.github.io/TrainTime/">
-                            <img className="roundCorner" src={train} alt="Train Scheduler" />
-                            <div className="floatText">Train Time</div>
+                        <a target="_blank" rel="noopener noreferrer" href="https://viant3.github.io/unit-4-game/">
+                            <img className="roundCorner" src={biohazzard} alt="Crystal Game" />
+                            <div className="floatText">Crystal Game</div>
                         </a>
                     </div>
                     <div className="col-lg-1"></div>
@@ -74,17 +73,7 @@ class Portfolio extends Component {
                     
 
                 </div>
-                <div className="row" >
-                <div className="col-lg-3 d">
-                        <a target="_blank" rel="noopener noreferrer" href="https://viant3.github.io/unit-4-game/">
-                            <img className="roundCorner" src={biohazzard} alt="Crystal Game" />
-                            <div className="floatText">Crystal Game</div>
-                        </a>
-                    </div>
-
-                    
-
-                </div>
+              
      
 
        
