@@ -84,7 +84,7 @@ class App extends Component {
     const { data } = this.state;
     return (
       <section className="container-fluid mainBox">
-      <div className="form-group">
+      <div>
         <div style={{ padding: "10px" }}>
         <input
             type="text"
@@ -113,7 +113,7 @@ class App extends Component {
         </div>
         </div>
         <h3>Visitors</h3>
-          <div>
+          <div className="mainBoxBorder">
           
         <ul>
       
@@ -122,7 +122,7 @@ class App extends Component {
               {/* <span style={{ color: "gray" }}> id: </span> {dat.id} <br /> */}
               <span className="visitColumn" style={{ color: "gray" }}> name:   {dat.name} </span> 
               <span className="visitColumn" style={{ color: "gray" }}> email:   {dat.email}</span> 
-              <span className=" visitColumn" style={{ color: "gray" }}> message:  {dat.message}</span> 
+              <span className="visitColumn" style={{ color: "gray" }}> message:  {dat.message}</span> 
             </li>
           ))}
          
