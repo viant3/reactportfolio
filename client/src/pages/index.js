@@ -31,6 +31,9 @@ class index extends Component {
                                 The original page can be seen <a target="_blank" rel="noopener noreferrer" href="https://viant3.github.io/Portfolio/">HERE</a>.
                 
                                               </p>
+                            <p>
+                                Please take a minute to let me know you were here by signing my <a href="#/visitor">GUESTBOOK</a>
+                                              </p>
                             <p> My GitHub repo for this sight is <a target="_blank" rel="noopener noreferrer" href="https://github.com/viant3/reactportfolio">HERE</a>.</p>
 
                             
