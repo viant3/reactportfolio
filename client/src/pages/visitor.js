@@ -29,6 +29,8 @@ class App extends Component {
     }
   }
 
+
+
   getDataFromDb = () => {
     fetch("/api/getData")
       .then(data => data.json())
@@ -46,9 +48,9 @@ class App extends Component {
       id: idToBeAdded,
       message: this.state.message,
       email: this.state.email,
-      name: this.state.name
+      name: this.state.name,
     })
-    
+    this.state.history.push('/visitor');
   };
 
   deleteFromDB = idTodelete => {
@@ -80,17 +82,24 @@ class App extends Component {
     });
   };
 
+  handleSubmit() {
+    this.props.history.push('/visitor');
+  }
+  
+
   render() {
     const { data } = this.state;
     return (
       <section className="container-fluid mainBox">
       <div>
         <div style={{ padding: "10px" }}>
+          <form onSubmit={this.handleSubmit.bind(this)}>
         <input
             type="text"
             onChange={e => this.setState({ name: e.target.value })}
             placeholder="Name"
             style={{ width: "200px" }}
+            ref="name"
           /><br />
            <input
             type="text"
@@ -105,11 +114,13 @@ class App extends Component {
             rows="6"
             cols="125"
             className="form-control"
+            target="/visitor"
           /><br /><br />
-          <button onClick={() => this.putDataToDB(this.state.message, this.state.name, this.state.email)} 
+          <button onClick={() => this.putDataToDB(this.state.message, this.state.name, this.state.email)}
           >
             Leave a Message
           </button><br /><br />
+          </form>
         </div>
         </div>
         <h3>Visitors</h3>
@@ -126,7 +137,7 @@ class App extends Component {
             </li>
           ))}
          
-        </ul>
+        </ul><br />
         
         {/* <div style={{ padding: "10px" }}>
           <input
