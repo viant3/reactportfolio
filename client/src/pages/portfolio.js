@@ -7,13 +7,16 @@ import biohazzard from "./images/biohazzard.jpg";
 import liri from "./images/liri.jpg";
 import claws from "./images/claws.jpg";
 
+
 class Portfolio extends Component {
+  
 
     render() {
         return (
+            
 
-            <section className="container-fluid mainBox padSection">
-
+            <section>
+                
                 <div className="row">
                     <div className="col"><h2>Portfolio</h2></div>
                 </div>
@@ -74,10 +77,10 @@ class Portfolio extends Component {
 
                 </div>
               
-     
-
-       
+               
 </section >
+
+
 
         );
     }
