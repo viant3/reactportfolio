@@ -17,7 +17,7 @@ class Portfolio extends Component {
             
 
             <section>
-                <Slides />
+
                 
                 <div className="row">
                     <div className="col"><h2>Portfolio</h2></div>
