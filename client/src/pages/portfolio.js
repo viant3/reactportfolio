@@ -6,6 +6,7 @@ import trivia from "./images/triviaChuck.jpg";
 import biohazzard from "./images/biohazzard.jpg";
 import liri from "./images/liri.jpg";
 import claws from "./images/claws.jpg";
+import Slides from "../components/Slides";
 
 
 class Portfolio extends Component {
@@ -16,6 +17,7 @@ class Portfolio extends Component {
             
 
             <section>
+                <Slides />
                 
                 <div className="row">
                     <div className="col"><h2>Portfolio</h2></div>

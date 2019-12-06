@@ -7,3 +7,7 @@
 .roundCorner{
   border-radius: 10px;
 }
+
+.gray {
+  background-color: gray;
+}

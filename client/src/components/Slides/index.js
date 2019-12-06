@@ -42,11 +42,14 @@ function Slides() {
       
         <Col span={12}>
           <RBCarousel
+           className="carousel-fade" version={4}
             autoplay={autoplay}
             pauseOnVisibility={true}
             onSelect={_visiableOnSelect}
-            slideshowSpeed={2500}
+            slideshowSpeed={2700}
+            indicators={false}
             version={4}
+          
             
           >
             <div style={{ ...styles, backgroundColor: "white" }}>
