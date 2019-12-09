@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf600af1.chunk.css",
+    "main.js": "/static/js/main.3d3e07ad.chunk.js",
+    "main.js.map": "/static/js/main.3d3e07ad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c58920cd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c58920cd.js.map",
+    "static/css/2.0ad0672b.chunk.css": "/static/css/2.0ad0672b.chunk.css",
+    "static/js/2.f8ec088f.chunk.js": "/static/js/2.f8ec088f.chunk.js",
+    "static/js/2.f8ec088f.chunk.js.map": "/static/js/2.f8ec088f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ba989059ba60d195615d3f390d81c62d.js": "/precache-manifest.ba989059ba60d195615d3f390d81c62d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.0ad0672b.chunk.css.map": "/static/css/2.0ad0672b.chunk.css.map",
+    "static/css/main.bf600af1.chunk.css.map": "/static/css/main.bf600af1.chunk.css.map",
+    "static/media/biohazzard.jpg": "/static/media/biohazzard.9cc64ca9.jpg",
+    "static/media/claws.jpg": "/static/media/claws.f5550e42.jpg",
+    "static/media/doctor.jpg": "/static/media/doctor.4e0eecee.jpg",
+    "static/media/style.css": "/static/media/dust_scratches.608ab5fe.png",
+    "static/media/liri.jpg": "/static/media/liri.2c0e6a30.jpg",
+    "static/media/myhead.jpg": "/static/media/myhead.b6a4bbf5.jpg",
+    "static/media/nsaBuild.jpg": "/static/media/nsaBuild.4ccd8476.jpg",
+    "static/media/react-bootstrap-carousel.css": "/static/media/react-bootstrap-carousel.f86d9bf3.svg",
+    "static/media/triviaChuck.jpg": "/static/media/triviaChuck.3f1da97a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c58920cd.js",
+    "static/css/2.0ad0672b.chunk.css",
+    "static/js/2.f8ec088f.chunk.js",
+    "static/css/main.bf600af1.chunk.css",
+    "static/js/main.3d3e07ad.chunk.js"
+  ]
+}
