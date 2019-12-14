@@ -16,7 +16,7 @@ const icon_music = <span className="fa fa-music" color="grey" />;
 
 function Slides() {
   const [autoplay, setAutoplay] = useState(true);
-  const [icon, setIcon] = useState({});
+  const [setIcon] = useState({});
   const _autoplay = useCallback(() => setAutoplay(autoplay => !autoplay), []);
   const _visiableOnSelect = useCallback(active => {
     console.log(`visiable onSelect active=${active}`);
@@ -42,7 +42,7 @@ function Slides() {
       
         <Col span={12}>
           <RBCarousel
-           className="carousel-fade" version={4}
+           className="carousel-fade" 
             autoplay={autoplay}
             pauseOnVisibility={true}
             onSelect={_visiableOnSelect}

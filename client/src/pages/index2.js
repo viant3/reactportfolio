@@ -14,6 +14,15 @@ class index2 extends Component {
     componentDidMount() {
         $('.winMenu').addClass("hidden");
         this.interval = setInterval(() => this.setState({ time: Date.now() }), 15000);
+
+        $('.winStart').click(function () {
+            if ($(".winMenu").hasClass("hidden")) {
+                $(".winMenu").removeClass("hidden").addClass("visible");
+            } else {
+                $(".winMenu").removeClass("visible").addClass("hidden");
+            }
+        });
+
     }
 
     componentWillUnmount() {
@@ -28,7 +37,12 @@ class index2 extends Component {
 
         const date = new Date();
 
+
+        
+
         function show() {
+
+
 
             $('.winMenu').addClass("hidden");
 
