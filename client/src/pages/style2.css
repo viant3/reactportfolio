@@ -14,7 +14,7 @@
     color: #777777;
     padding: 1px;
     width: 100%;
-    height: 5%;
+    height: auto;
     text-align: center;
   }
 
@@ -89,7 +89,6 @@
     float: right;
     padding-right: 8px;
     text-align: center;
-    padding-bottom: 3px;
 }
 
 .hideMenu {
@@ -104,5 +103,13 @@
     and  (max-width: 640px) {
         .windows {
             width: auto;
+        }
+
+        .winMenu {
+            width: auto;
+        }
+
+        .winFooter {
+            height: auto;
         }
     }
