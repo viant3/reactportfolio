@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import axios from "axios";
 
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+
+
 class App extends Component {
   state = {
     data: [],
@@ -90,6 +94,8 @@ class App extends Component {
   render() {
     const { data } = this.state;
     return (
+      <div>
+      <Navbar />
       <section className="container-fluid mainBox">
       <div>
         <div style={{ padding: "10px" }}>
@@ -173,6 +179,9 @@ class App extends Component {
         {/* </div> */}
       </div>
       </section>
+      <Footer />
+      </div>
+        
     );
   }
 }

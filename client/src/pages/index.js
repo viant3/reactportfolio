@@ -3,11 +3,17 @@ import React, { Component } from "react";
 import Slides from "../components/Slides";
 import myHead from "./images/myhead.jpg"
 
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+
 class index extends Component {
 
     render() {
         return (
 
+
+            <div>
+            <Navbar />
             <section className="container-fluid mainBox">
 
                 <div className="row">
@@ -37,6 +43,8 @@ class index extends Component {
                     </div>
                    
             </section>
+            <Footer />
+      </div>
 
         );
     }
