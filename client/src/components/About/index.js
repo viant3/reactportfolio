@@ -25,15 +25,12 @@ function About() {
                         CSS, and JavaScript skills. I am an excellent problem solver and I am excited to build applications with
                         a team that shares my passion for coding.
                                        </p>
-                    <p>
-                        This site is a Full MERN Stack reproduction of my initial static HTML Portfolio page. The original page
-                            can be seen <a target="_blank" rel="noopener noreferrer" href="https://viant3.github.io/Portfolio/">HERE</a>.
-                                          </p>
-                    <p> My GitHub repo for this sight is <a target="_blank" rel="noopener noreferrer" href="https://github.com/viant3/reactportfolio">HERE</a>.
+                     <p>This site is and will always be a work-in-progress… keep checking back for new updates.
+                                        </p>
+                     <p>My GitHub repo for this site is <a target="_blank" rel="noopener noreferrer" href="https://github.com/viant3/reactportfolio">HERE</a>.
                                          </p>
 
-                    <p>This site is and will always be a work-in-progress… keep checking back for new updates.
-                                        </p>
+                   
                 </div>
 
             </div>
