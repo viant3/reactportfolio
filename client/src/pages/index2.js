@@ -5,6 +5,8 @@ import $ from "jquery";
 import React, { Component } from "react";
 import Moment from 'react-moment';
 
+import About from "../components/About";
+
 
 
 
@@ -74,10 +76,13 @@ class index2 extends Component {
             <div>
 
 
-                <div className="col-sm-12 windows">
-                    <div className="hideMenu" onClick={hide}></div>
-                </div>
 
+                <div className="col-sm-12 windows">
+                <About />
+                    <div className="hideMenu" onClick={hide}></div>
+                   
+                </div>
+                
                 <div className="winMenu">
                     <div className="winMenuHeader">Victor Politano</div>
                     <div className="winMenuItem"><a target="_blank" rel="noopener noreferrer" href="#/portfolio">My Portfolio</a></div>
