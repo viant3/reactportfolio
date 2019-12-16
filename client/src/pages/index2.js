@@ -7,6 +7,8 @@ import Moment from 'react-moment';
 
 import About from "../components/About";
 
+import Folder from "./images/folder.png"
+
 
 
 
@@ -44,13 +46,9 @@ class index2 extends Component {
 
         function show() {
 
-
-
             $('.winMenu').addClass("hidden");
-
-
             $('.winStart').click(function () {
-
+               
 
                 if ($(".winMenu").hasClass("hidden")) {
                     $(".winMenu").removeClass("hidden").addClass("visible");
@@ -67,6 +65,12 @@ class index2 extends Component {
         
         }
 
+        function showAbout() {
+    
+            $(".mainBox2").removeClass("hidden2");
+
+}
+
 
         
         return (
@@ -76,7 +80,12 @@ class index2 extends Component {
 
 
                 <div className="col-sm-12 windows" onClick={hide}>
-               
+                 <div  className="winCaption"> 
+                 <figure>
+               <img src={Folder} onClick={showAbout} className="winLinks" />
+               <figcaption>About Me</figcaption>
+               </figure> 
+               </div>
                     <div className="hideMenu" onClick={hide}><About /></div>
                    
                 </div>
