@@ -62,13 +62,11 @@ class index2 extends Component {
         }
 
         function hide() {
-
-
-            $('.hideMenu').click(function () {
+    
                     $(".winMenu").removeClass("visible").addClass("hidden");
-
-            });
+        
         }
+
 
         
         return (
@@ -77,9 +75,9 @@ class index2 extends Component {
 
 
 
-                <div className="col-sm-12 windows">
-                <About />
-                    <div className="hideMenu" onClick={hide}></div>
+                <div className="col-sm-12 windows" onClick={hide}>
+               
+                    <div className="hideMenu" onClick={hide}><About /></div>
                    
                 </div>
                 
