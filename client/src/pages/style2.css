@@ -96,7 +96,7 @@
     height: 600px;
     width: 1300px;
     float: right;
-    position: relative;
+    z-index: 2;
     
 }
 

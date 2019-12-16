@@ -1,13 +1,24 @@
 import "./style.css";
 import React from "react";
+import $ from "jquery";
+
 import myHead from "../../pages/images/myhead.jpg"
 
+import BtnX from  "../btnX";
 
 
 function About() {
 
+
+    function hideMain() {
+        
+                $(".mainBox2").addClass("hidden2");
+    }
+
     return (
         <div className="container-fluid mainBox2">
+            <div className="closeMe"  onClick={hideMain} ><BtnX/>
+</div>
 
             <div className="row">
                 <div className="col"><h2>About Me</h2></div>

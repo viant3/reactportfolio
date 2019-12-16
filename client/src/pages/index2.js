@@ -84,12 +84,12 @@ class index2 extends Component {
                 </div>
                 
                 <div className="winMenu">
-                    <div className="winMenuHeader">Victor Politano</div>
+                    <div className="winMenuHeader"><a href="/">Victor Politano</a></div>
                     <div className="winMenuItem"><a target="_blank" rel="noopener noreferrer" href="#/portfolio">My Portfolio</a></div>
                     <div className="winMenuItem"><a target="_blank" rel="noopener noreferrer" href="https://github.com/viant3">My Github</a></div>
                     <div className="winMenuItem"> <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/victor-politano-a14b98151">My LinkedIn</a></div>
                     <div className="winMenuItem"><a target="_blank" rel="noopener noreferrer" href="#/visitor">Sign My Guestbook</a></div>
-                    <div className="winMenuItem"><a href="#/vpTest">HOME</a></div>
+                    <div className="winMenuItem"><a href="/">HOME</a></div>
 
                 </div>
 
