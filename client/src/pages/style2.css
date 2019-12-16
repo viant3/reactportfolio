@@ -76,6 +76,11 @@
     text-align: center;
 }
 
+.winMenuHeader a:link { color: #fdfdfd; }
+.winMenuHeader a:visited { color: #fdfdfd; }
+.winMenuHeader a:hover { color: #cecaca; }
+.winMenuHeader a:active { color: #fdfdfd; }
+
   .hidden {
 	display: none;
 }
