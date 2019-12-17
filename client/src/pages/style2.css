@@ -110,6 +110,11 @@
       background-color: rgb(189, 189, 192);
   }
 
+  .winMenuItem a:link { color: #494949; }
+  .winMenuItem a:visited { color: #494949; }
+  .winMenuItem a:hover { color: #494949; }
+  .winMenuItem a:active { color: #494949; }
+
   .winMenuHeader {
     background-color: #1f72d1;
     border-color: #162d47;
@@ -126,6 +131,23 @@
 .winMenuHeader a:visited { color: #fdfdfd; }
 .winMenuHeader a:hover { color: #cecaca; }
 .winMenuHeader a:active { color: #fdfdfd; }
+
+.winMenuHeader2 {
+    background-color: #131227;
+    border-color: #162d47;
+    border-radius: 5px;
+    border: 2px;
+    height: 15%;
+    width: 100%;
+    font-size: large;
+    color: white;
+    text-align: center;
+}
+
+.winMenuHeader2 a:link { color: #fdfdfd; }
+.winMenuHeader2 a:visited { color: #fdfdfd; }
+.winMenuHeader2 a:hover { color: #cecaca; }
+.winMenuHeader2 a:active { color: #fdfdfd; }
 
 .winLinks {
     z-index: 2;

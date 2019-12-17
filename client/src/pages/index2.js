@@ -21,6 +21,7 @@ class index2 extends Component {
         $('.backGround').addClass("windows");
         this.interval = setInterval(() => this.setState({ time: Date.now() }), 15000);
 
+
         $('.winStart').click(function () {
             if ($(".winMenu").hasClass("hidden")) {
                 $(".winMenu").removeClass("hidden").addClass("visible");
@@ -35,10 +36,12 @@ class index2 extends Component {
                 $(".backGround").removeClass("windows").addClass("windows2");
                 $(".base").removeClass("winFooter").addClass("winFooter2");
                 $(".start").removeClass("winStart").addClass("winStart2");
+                $(".menuHead").removeClass("winMenuHeader").addClass("winMenuHeader2");
             } else {
                 $(".backGround").removeClass("windows2").addClass("windows");
                 $(".base").removeClass("winFooter2").addClass("winFooter");
                 $(".start").removeClass("winStart2").addClass("winStart");
+                $(".menuHead").removeClass("winMenuHeader").addClass("winMenuHeader2");
             }
         });
 
@@ -83,10 +86,12 @@ class index2 extends Component {
                     $(".backGround").removeClass("windows").addClass("windows2");
                     $(".base").removeClass("winFooter").addClass("winFooter2");
                     $(".start").removeClass("winStart").addClass("winStart2");
+                    $(".menuHead").removeClass("winMenuHeader").addClass("winMenuHeader2");
                 } else {
                     $(".backGround").removeClass("windows2").addClass("windows");
                     $(".base").removeClass("winFooter2").addClass("winFooter");
                     $(".start").removeClass("winStart2").addClass("winStart");
+                    $(".menuHead").removeClass("winMenuHeader2").addClass("winMenuHeader");
                 }
             });
         }
@@ -98,14 +103,14 @@ class index2 extends Component {
                 <div className="col-sm-12 backGround windows" onClick={hide}>
                     <div className="winCaption">
                         <figure>
-                            <img src={Folder} onClick={showAbout} className="winLinks" />
+                            <img src={Folder} onClick={showAbout} alt="About Me" className="winLinks" />
                             <figcaption>About Me</figcaption>
                         </figure>
                     </div>
                     <div className="winCaption">
                         <figure>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/viant3">
-                                <img src={DeadCat} className="winLinks" />
+                                <img src={DeadCat} alt="My GitHub" className="winLinks" />
                             </a>
                             <figcaption>My GitHub</figcaption>
                         </figure>
@@ -113,7 +118,7 @@ class index2 extends Component {
                     <div className="winCaption">
                         <figure>
                             <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/victor-politano-a14b98151">
-                                <img src={Linked} className="winLinks" />
+                                <img src={Linked} alt="My LinkedIn" className="winLinks" />
                             </a>
                             <figcaption>My Linkedin</figcaption>
                         </figure>
@@ -122,7 +127,7 @@ class index2 extends Component {
                 </div>
 
                 <div className="winMenu">
-                    <div className="winMenuHeader"><a href="/">Victor Politano</a></div>
+                    <div className="menuHead winMenuHeader"><a href="/">Victor Politano</a></div>
                     <div className="winMenuItem"><a target="_blank" rel="noopener noreferrer" href="#/portfolio">My Portfolio</a></div>
                     <div className="winMenuItem"><a target="_blank" rel="noopener noreferrer" href="https://github.com/viant3">My Github</a></div>
                     <div className="winMenuItem"> <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/victor-politano-a14b98151">My LinkedIn</a></div>
