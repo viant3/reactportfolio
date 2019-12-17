@@ -4,21 +4,21 @@ import $ from "jquery";
 
 import myHead from "../../pages/images/myhead.jpg"
 
-import BtnX from  "../btnX";
+import BtnX from "../btnX";
 
 
 function About() {
 
 
     function hideMain() {
-        
-                $(".mainBox2").addClass("hidden2");
+
+        $(".mainBox2").addClass("hidden2");
     }
 
     return (
         <div className="container-fluid mainBox2">
-            <div className="closeMe"  onClick={hideMain} ><BtnX/>
-</div>
+            <div className="closeMe" onClick={hideMain} ><BtnX />
+            </div>
 
             <div className="row">
                 <div className="col"><h2>About Me</h2></div>
@@ -36,12 +36,12 @@ function About() {
                         CSS, and JavaScript skills. I am an excellent problem solver and I am excited to build applications with
                         a team that shares my passion for coding.
                                        </p>
-                     <p>This site is and will always be a work-in-progress… keep checking back for new updates.
+                    <p>This site is and will always be a work-in-progress… keep checking back for new updates.
                                         </p>
-                     <p>My GitHub repo for this site is <a target="_blank" rel="noopener noreferrer" href="https://github.com/viant3/reactportfolio">HERE</a>.
+                    <p>My GitHub repo for this site is <a target="_blank" rel="noopener noreferrer" href="https://github.com/viant3/reactportfolio">HERE</a>.
                                          </p>
 
-                   
+
                 </div>
 
             </div>

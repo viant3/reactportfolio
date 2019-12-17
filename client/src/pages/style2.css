@@ -6,12 +6,32 @@
     background-size: cover;
 }
 
+.windows2 {
+    font: "MS Sans Serif";
+    background: url("./images/rain.jpg");
+    width: 1800px;
+    height: 720px;
+    background-size: cover;
+}
+
 .winFooter {
     position: fixed;
     left: 0;
     bottom: 0;
     background-color: #b6b3b3;
     color: #777777;
+    padding: 1px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .winFooter2 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #131227;
+    color: #a5a4a4;
     padding: 1px;
     width: 100%;
     height: auto;
@@ -33,9 +53,14 @@
       text-align: center;
   }
 
+
   .winStart:hover {
       background-color: #838282;
       cursor: pointer;
+  }
+
+  .bgChange {
+    cursor: pointer;
   }
 
   .winMenu {
