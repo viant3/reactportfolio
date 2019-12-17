@@ -8,7 +8,8 @@ import Moment from 'react-moment';
 import About from "../components/About";
 
 import Folder from "./images/folder.png"
-
+import DeadCat from "./images/deadCat.png"
+import Linked from "./images/linked.png"
 
 
 
@@ -86,8 +87,23 @@ class index2 extends Component {
                <figcaption>About Me</figcaption>
                </figure> 
                </div>
-                    <div className="hideMenu" onClick={hide}><About /></div>
-                   
+               <div  className="winCaption"> 
+               <figure>
+               <a target="_blank" rel="noopener noreferrer" href="https://github.com/viant3">
+               <img src={DeadCat} className="winLinks"/>
+               </a>
+               <figcaption>My GitHub</figcaption>
+               </figure> 
+               </div>
+               <div  className="winCaption"> 
+               <figure>
+               <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/victor-politano-a14b98151">
+               <img src={Linked} className="winLinks"/>
+               </a>
+               <figcaption>My Linkedin</figcaption>
+               </figure> 
+               </div>
+                    <div  onClick={hide}><About /></div>
                 </div>
                 
                 <div className="winMenu">

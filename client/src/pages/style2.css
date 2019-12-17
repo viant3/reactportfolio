@@ -90,10 +90,19 @@
 }
 
 .winCaption {
-    z-index: 2;
+    clear: both;
+    z-index: 0;
     text-align: center;
     float: left;
+    display: inline-flex;
 }
+
+.winCaption a:link { color: #5e5c5c; }
+.winCaption a:visited { color: #5e5c5c; }
+.winCaption a:hover { color: #141414; }
+.winCaption a:active { color: #5e5c5c; }
+
+
 
 .hidden {
 	display: none;
