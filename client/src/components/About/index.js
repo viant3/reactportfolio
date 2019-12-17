@@ -11,12 +11,11 @@ function About() {
 
 
     function hideMain() {
-
         $(".mainBox2").addClass("hidden2");
     }
 
     return (
-        <div className="container-fluid mainBox2">
+        <div className=" container-fluid mainBox2">
             <div className="closeMe" onClick={hideMain} ><BtnX />
             </div>
 

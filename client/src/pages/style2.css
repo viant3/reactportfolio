@@ -196,6 +196,10 @@
     
 }
 
+figcaption {
+    color: #492626;
+}
+
 @media (min-width: 1px)
     and  (max-width: 640px) {
         .windows {
