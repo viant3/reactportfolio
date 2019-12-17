@@ -43,7 +43,7 @@ class index2 extends Component {
 
         function show() {
             $('.winMenu').addClass("hidden");
-            $('.winStart').click(function () {
+            $('.start').click(function () {
 
                 if ($(".winMenu").hasClass("hidden")) {
                     $(".winMenu").removeClass("hidden").addClass("visible");
@@ -68,9 +68,11 @@ class index2 extends Component {
                 if ($(".backGround").hasClass("windows")) {
                     $(".backGround").removeClass("windows").addClass("windows2");
                     $(".base").removeClass("winFooter").addClass("winFooter2");
+                    $(".start").removeClass("winStart").addClass("winStart2");
                 } else {
                     $(".backGround").removeClass("windows2").addClass("windows");
                     $(".base").removeClass("winFooter2").addClass("winFooter");
+                    $(".start").removeClass("winStart2").addClass("winStart");
                 }
             });
         }
@@ -119,7 +121,7 @@ class index2 extends Component {
 
                 <div className="base winFooter">
 
-                    <div className="winStart" onClick={show}>Start</div>
+                    <div className="start winStart" onClick={show}>Start</div>
                     <span className="bgChange" onClick={mood}>Mood Change</span>
                     <div className="divRight"><Moment format='h:mm a'>{date}</Moment><br />
                         <Moment format='MMMM Do YYYY'>{date}</Moment></div>

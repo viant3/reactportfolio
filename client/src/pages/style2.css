@@ -59,6 +59,27 @@
       cursor: pointer;
   }
 
+  .winStart2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   font-size: 20px;
+    color: #a5a4a4;
+    background-color: #131227;
+    border: 1px;
+    border-style: outset;
+    border-color: #160606;
+    float: left;
+    height: 100%;
+    width: 100px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+
+.winStart2:hover {
+    background-color: #838282;
+    cursor: pointer;
+}
+
   .bgChange {
     cursor: pointer;
   }
