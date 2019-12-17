@@ -18,6 +18,7 @@ class index2 extends Component {
 
     componentDidMount() {
         $('.winMenu').addClass("hidden");
+        $('.backGround').addClass("windows");
         this.interval = setInterval(() => this.setState({ time: Date.now() }), 15000);
 
         $('.winStart').click(function () {
@@ -25,6 +26,19 @@ class index2 extends Component {
                 $(".winMenu").removeClass("hidden").addClass("visible");
             } else {
                 $(".winMenu").removeClass("visible").addClass("hidden");
+            }
+        });
+
+        $('.bgChange').click(function () {
+
+            if ($(".backGround").hasClass("windows")) {
+                $(".backGround").removeClass("windows").addClass("windows2");
+                $(".base").removeClass("winFooter").addClass("winFooter2");
+                $(".start").removeClass("winStart").addClass("winStart2");
+            } else {
+                $(".backGround").removeClass("windows2").addClass("windows");
+                $(".base").removeClass("winFooter2").addClass("winFooter");
+                $(".start").removeClass("winStart2").addClass("winStart");
             }
         });
 
