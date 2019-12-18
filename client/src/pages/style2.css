@@ -1,3 +1,8 @@
+body {
+    font-family: 'Julius Sans One', sans-serif;
+      font-weight: bolder;
+    }
+
 .windows {
     font: "MS Sans Serif";
     background: url("./images/winbg.jpg");
