@@ -104,6 +104,7 @@
       margin: 0 auto;
       font-size: medium;
       font-weight: bolder;
+      cursor: pointer;
   }
 
   .winMenuItem:hover {

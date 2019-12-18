@@ -1,29 +1,40 @@
 import "./style.css";
-import React, { Component } from "react";
-import NSA from "./images/nsaBuild.jpg";
-import doctor from "./images/doctor.jpg";
-import trivia from "./images/triviaChuck.jpg";
-import biohazzard from "./images/biohazzard.jpg";
-import liri from "./images/liri.jpg";
-import claws from "./images/claws.jpg";
 
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+import $ from "jquery";
+
+import React from "react";
+
+import NSA from "../../pages/images/nsaBuild.jpg";
+import doctor from "../../pages/images/doctor.jpg";
+import trivia from "../../pages/images/triviaChuck.jpg";
+import biohazzard from "../../pages/images/biohazzard.jpg";
+import liri from "../../pages/images/liri.jpg";
+import claws from "../../pages/images/claws.jpg";
+
+import BtnX from "../btnX";
 
 
-class Portfolio extends Component {
+function Portfolio() {
 
 
-    render() {
+    function hideMain3() {
+        $(".mainBox3").addClass("hidden3 ");
+    }
+
+  
         return (
-            <div>
-                <Navbar />
 
-                <section>
+            <div>
+            <div className="container-fluid mainBox3 hidden3">
+            <div className="closeMe" onClick={hideMain3} ><BtnX />
+            </div>
+              
+
+                
 
 
                     <div className="row">
-                        <div className="col"><h2>Portfolio</h2></div>
+                        <div className="col"><h2>Victor Politano's Portfolio</h2></div>
                     </div>
 
                     <hr />
@@ -83,13 +94,13 @@ class Portfolio extends Component {
                     </div>
 
 
-                </section >
-                <Footer />
+               
+                
             </div>
-
+            </div >
 
         );
     }
-}
+
 
 export default Portfolio;

@@ -6,10 +6,12 @@ import React, { Component } from "react";
 import Moment from 'react-moment';
 
 import About from "../components/About";
+import Portfolio from "../components/portfolio";
 
-import Folder from "./images/folder.png"
-import DeadCat from "./images/deadCat.png"
-import Linked from "./images/linked.png"
+import Folder from "./images/folder.png";
+import DeadCat from "./images/deadCat.png";
+import Linked from "./images/linked.png";
+import PortfolioPic from "./images/portfolio.png"
 
 
 
@@ -59,6 +61,7 @@ class index2 extends Component {
 
 
         function show() {
+           
             $('.winMenu').addClass("hidden");
             $('.start').click(function () {
 
@@ -76,7 +79,17 @@ class index2 extends Component {
 
         function showAbout() {
             $(".mainBox2").removeClass("hidden2");
+            $(".mainBox3").addClass("hidden3");
         }
+
+        function showPortfolio() {
+           
+            $(".mainBox3").removeClass("hidden3");
+        }
+
+    
+
+        
 
         function mood() {
             $('.backGround').addClass("windows");
@@ -87,11 +100,13 @@ class index2 extends Component {
                     $(".base").removeClass("winFooter").addClass("winFooter2");
                     $(".start").removeClass("winStart").addClass("winStart2");
                     $(".menuHead").removeClass("winMenuHeader").addClass("winMenuHeader2");
+
                 } else {
                     $(".backGround").removeClass("windows2").addClass("windows");
                     $(".base").removeClass("winFooter2").addClass("winFooter");
                     $(".start").removeClass("winStart2").addClass("winStart");
                     $(".menuHead").removeClass("winMenuHeader2").addClass("winMenuHeader");
+                    $(".aboutBox").removeClass("mainBox3").addClass("mainBox2");
                 }
             });
         }
@@ -123,12 +138,20 @@ class index2 extends Component {
                             <figcaption>My Linkedin</figcaption>
                         </figure>
                     </div>
+                    <div className="winCaption">
+                        <figure>
+                                <img src={PortfolioPic} onClick={showPortfolio} alt="My Portfolio" className="winLinks" />
+                            <figcaption>My Portfolio</figcaption>
+                        </figure>
+                    </div>
                     <div onClick={hide}><About /></div>
+                   <div ><Portfolio /></div>
                 </div>
+              
 
                 <div className="winMenu">
                     <div className="menuHead winMenuHeader"><a href="/">Victor Politano</a></div>
-                    <div className="winMenuItem"><a target="_blank" rel="noopener noreferrer" href="#/portfolio">My Portfolio</a></div>
+                    <div className="winMenuItem" onClick={showPortfolio}>My Portfolio</div>
                     <div className="winMenuItem"><a target="_blank" rel="noopener noreferrer" href="https://github.com/viant3">My Github</a></div>
                     <div className="winMenuItem"> <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/victor-politano-a14b98151">My LinkedIn</a></div>
                     <div className="winMenuItem"><a target="_blank" rel="noopener noreferrer" href="#/visitor">Sign My Guestbook</a></div>
