@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import portfolio from "./pages/portfolio";
 import Visitor from "./pages/visitor";
 import index2 from "./pages/index2";
 
