@@ -4,6 +4,8 @@ import axios from "axios";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
+import "./style2.css"
+
 
 class App extends Component {
   state = {
