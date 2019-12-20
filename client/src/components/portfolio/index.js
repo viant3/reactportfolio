@@ -5,7 +5,7 @@ import $ from "jquery";
 import React from "react";
 
 import NSA from "../../pages/images/nsaBuild.jpg";
-import doctor from "../../pages/images/doctor.jpg";
+import doctor from "../../pages/images/doctor1.jpg";
 import trivia from "../../pages/images/triviaChuck.jpg";
 import biohazzard from "../../pages/images/biohazzard.jpg";
 import liri from "../../pages/images/liri.jpg";
@@ -51,7 +51,7 @@ function Portfolio() {
                         <div className="col-lg-3 d">
                             <a target="_blank" rel="noopener noreferrer" href="https://ucfp2.herokuapp.com/">
                                 <img className="roundCorner" src={claws} alt="Project 2" />
-                                <div className="floatText">Project 2 MySQL</div>
+                                <div className="floatText">Claws and Paws</div>
                             </a>
                         </div>
                         <div className="col-lg-1"></div>
@@ -77,8 +77,8 @@ function Portfolio() {
 
                         <div className="col-lg-3 d">
                             <a target="_blank" rel="noopener noreferrer" href="https://viant3.github.io/unit-4-game/">
-                                <img className="roundCorner" src={biohazzard} alt="Crystal Game" />
-                                <div className="floatText">Crystal Game</div>
+                                <img className="roundCorner" src={biohazzard} alt="Quick Game" />
+                                <div className="floatText">Quick Game</div>
                             </a>
                         </div>
                         <div className="col-lg-1"></div>

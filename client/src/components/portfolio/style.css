@@ -127,9 +127,9 @@
       position: absolute;
       bottom: 35px;
       left: 30px;
-      background-color: #800000;
+      
       color: #ffffff;
-      opacity: .8;
+      /* opacity: .8; */
       padding: 15px 0px;
       width: 250px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
