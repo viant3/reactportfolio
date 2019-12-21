@@ -100,7 +100,7 @@ class App extends Component {
       <Navbar />
       <section className="container-fluid mainBox">
       <div>
-        <div style={{ padding: "10px" }}>
+        <div className="padTop" style={{ padding: "10px"}}>
           <form onSubmit={this.handleSubmit.bind(this)}>
         <input
             type="text"
