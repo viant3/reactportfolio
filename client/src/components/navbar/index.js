@@ -15,7 +15,6 @@ function Navbar() {
               
                 <div className="col-sm-6 containerNav">
                       <a className="a" href="#/visitor">Guestbook</a>
-                      <a className="a" href="#/portfolio">Portfolio</a>
                       <a className="a" href="#/">About</a>
                  </div>
                  

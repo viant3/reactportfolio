@@ -138,7 +138,6 @@ class App extends Component {
       
           {data.length <= 0 ? "NO DB ENTRIES YET" : data.map(dat => (
             <li style={{ padding: "10px" }} key={dat} >
-              {/* <span style={{ color: "gray" }}> id: </span> {dat.id} <br /> */}
               <span className="visitColumn" style={{ color: "gray" }}> name:   {dat.name} </span> 
               <span className="visitColumn" style={{ color: "gray" }}> email:   {dat.email}</span> 
               <span className="visitColumn" style={{ color: "gray" }}> message:  {dat.message}</span> 

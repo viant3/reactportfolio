@@ -6,7 +6,7 @@ import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
 import { Input, TextArea, FormBtn } from "../components/Form";
-import Navbar from "../components/navbar";
+
 
 class Guests extends Component {
   state = {
