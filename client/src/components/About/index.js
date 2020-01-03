@@ -34,12 +34,14 @@ function About() {
                         am skilled in the MERN Stack, (MongoDB, Express, React, and Node), and have strong fundamental HTML,
                         CSS, and JavaScript skills. I am an excellent problem solver and I am excited to build applications with
                         a team that shares my passion for coding.
-                                       </p>
+                                        </p>
+                                      
                     <p>This site is and will always be a work-in-progress… keep checking back for new updates.
                                         </p>
-                    <p>My GitHub repo for this site is <a target="_blank" rel="noopener noreferrer" href="https://github.com/viant3/reactportfolio">HERE</a>.
-                                         </p>
-
+                    <p>Contact me via email<a href="mailto:vpolitano3@outlook.com"> HERE.</a>
+                                        </p>
+            
+                    
 
                 </div>
 
