@@ -30,7 +30,7 @@ function About() {
                 <div className="col-lg-8 moveRight2">
                     <p>
                         My name is Victor Politano. I am a recent graduate of the University of Central Florida’s Full Stack
-                        Web Developer Bootcamp and have certifications in Web Design and Programming from Valencia College. I
+                        Web Development Bootcamp and have certificates in Web Design and Programming from Valencia College. I
                         am skilled in the MERN Stack, (MongoDB, Express, React, and Node), and have strong fundamental HTML,
                         CSS, and JavaScript skills. I am an excellent problem solver and I am excited to build applications with
                         a team that shares my passion for coding.
