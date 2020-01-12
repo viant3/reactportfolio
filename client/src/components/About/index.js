@@ -38,7 +38,7 @@ function About() {
                                       
                     <p>This site is and will always be a work-in-progress… keep checking back for new updates.
                                         </p>
-                    <p>Contact me via email<a href="mailto:viant3ucf@gmail.com"> HERE.</a>
+                    <p>Contact me via email at<a href="mailto:viant3ucf@gmail.com"> viant3UCF@gmail.com</a>
                                         </p>
             
                     
