@@ -32,13 +32,15 @@ function About() {
                         My name is Victor Politano. I am a recent graduate of the University of Central Florida’s Full Stack
                         Web Development Bootcamp and have certificates in Web Design and Programming from Valencia College. I
                         am skilled in the MERN Stack, (MongoDB, Express, React, and Node), and have strong fundamental HTML,
-                        CSS, and JavaScript skills. I am an excellent problem solver and I am excited to build applications with
-                        a team that shares my passion for coding.
+                        CSS, and JavaScript/jQuery skills. I am an excellent problem solver and I am excited to build applications
+                        with a team that shares my passion for coding.
                                         </p>
                                       
-                    <p>This site is and will always be a work-in-progress… keep checking back for new updates.
+                    <p>This site is a Full Stack MERN Site. It will change often as I sharpen my React skills. Take a minute
+                       to look around and please sign my guestbook before leaving. It saves your info to a MongoDB Table. 
                                         </p>
-                    <p>Contact me via email at<a href="mailto:viant3ucf@gmail.com"> viant3UCF@gmail.com</a>
+                    <p>I can be contacted by email at<a href="mailto:viant3ucf@gmail.com"> viant3UCF@gmail.com</a> 
+                       Or by phone (407)-361-6832
                                         </p>
             
                     
