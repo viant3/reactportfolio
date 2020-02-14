@@ -11,7 +11,8 @@ import Portfolio from "../components/portfolio";
 import Folder from "./images/folder.png";
 import DeadCat from "./images/deadCat.png";
 import Linked from "./images/linked.png";
-import PortfolioPic from "./images/portfolio.png"
+import PortfolioPic from "./images/portfolio.png";
+import GB from "./images/gb.png";
 
 
 
@@ -142,6 +143,14 @@ class index2 extends Component {
                         <figure>
                                 <img src={PortfolioPic} onClick={showPortfolio} alt="My Portfolio" className="winLinks" />
                             <figcaption>My Portfolio</figcaption>
+                        </figure>
+                    </div>
+                    <div className="winCaption">
+                        <figure>
+                            <a target="_blank" rel="noopener noreferrer" href="#/visitor">
+                                <img src={GB} alt="My Guestbook" className="winLinks" />
+                            </a>
+                            <figcaption>Guestbook</figcaption>
                         </figure>
                     </div>
                     <div onClick={hide}><About /></div>
