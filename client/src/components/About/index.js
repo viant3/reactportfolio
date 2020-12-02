@@ -37,9 +37,7 @@ function About() {
                         While studying for the AWS CCP exam, I bought a domain through Route 53 and created a scratch site in
                         AWS S3 to try new ideas. If you would like to see what I'm experimenting with, take a look <a target="_blank" rel="noopener noreferrer" href="http://victorpolitano.com">HERE!</a>
                     </p>
-                    <p>This site is a Full Stack MERN Site. It will change often as I sharpen my React skills. Take a minute
-                    to look around and please sign my guestbook before leaving. It saves your info to a MongoDB Table.
-                                        </p>
+    
                     <p>I can be contacted by email at<a href="mailto:viant3ucf@gmail.com"> viant3UCF@gmail.com</a><br />
                        Or by phone (407)-361-6832
                                         </p>

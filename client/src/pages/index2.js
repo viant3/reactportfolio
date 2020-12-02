@@ -12,7 +12,7 @@ import Folder from "./images/folder.png";
 import DeadCat from "./images/deadCat.png";
 import Linked from "./images/linked.png";
 import PortfolioPic from "./images/portfolio.png";
-import GB from "./images/gb.png";
+// import GB from "./images/gb.png";
 
 
 
@@ -145,14 +145,7 @@ class index2 extends Component {
                             <figcaption>My Portfolio</figcaption>
                         </figure>
                     </div>
-                    <div className="winCaption">
-                        <figure>
-                            <a target="_blank" rel="noopener noreferrer" href="#/visitor">
-                                <img src={GB} alt="My Guestbook" className="winLinks" />
-                            </a>
-                            <figcaption>Guestbook</figcaption>
-                        </figure>
-                    </div>
+                   
                     <div onClick={hide}><About /></div>
                    <div ><Portfolio /></div>
                 </div>
@@ -163,7 +156,7 @@ class index2 extends Component {
                     <div className="winMenuItem" onClick={showPortfolio}>My Portfolio</div>
                     <div className="winMenuItem"><a target="_blank" rel="noopener noreferrer" href="https://github.com/viant3">My Github</a></div>
                     <div className="winMenuItem"> <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/victor-politano-a14b98151">My LinkedIn</a></div>
-                    <div className="winMenuItem"><a target="_blank" rel="noopener noreferrer" href="#/visitor">Sign My Guestbook</a></div>
+               
                     <div className="winMenuItem"><a href="/">HOME</a></div>
 
                 </div>
